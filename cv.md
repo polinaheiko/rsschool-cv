@@ -8,7 +8,7 @@ ___
 tel.: +1(782)-234-5588 / email: polinageiko10@gmail.com  
 ___
 
-## Highlights of skills:
+### Highlights of skills:
 * High School Diploma, University degree in progress 
 * Soft skills:
   * Strong leadership and exceptional communication skills  
@@ -24,7 +24,7 @@ ___
   * Russian
   * Ukranian (native language)
 
-## Work Experience:
+### Work Experience:
 **Host**, Moxie’s, Halifax, NS; Jan 2020 – Aug 2020
 * Greeting guests
 * Providing accurate wait times 
@@ -61,7 +61,7 @@ ___
 * Communicated with parents regarding children’s experiences 
 * Enforced summer camp’s safety and security guidelines 
 
-## Education
+### Education
 **Bachelor of Applied Computer Science (in progress)**, Dalhousie University, Halifax, NS; Grad 2023  
 **Python for Database course (in progress)**, DataCamp  
 **High School Diploma**, Lyceum of Informational Technologies, Ukraine; 2018  
