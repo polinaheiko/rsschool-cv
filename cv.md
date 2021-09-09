@@ -24,19 +24,17 @@ ___
 * **Other Tools:** Photoshop, Gimp, SketchUp, Wix, MS Office tools
 
 ### Code Example
-~~~java
-  public Card nextPlay(){
-        Player currentPlayer = getCurrentPlayer();
-        Card playCard = currentPlayer.findMatch(discardCard);
-        if (playCard == null){
-            currentPlayer.addCardToHand(pile);
-        }
-        else {
-            currentPlayer.removeCardFromHand(playCard);
-            discardCard = playCard;
-        }
-        return discardCard;
+~~~js
+function isPrime(num) {
+  if (num < 2) return false;
+  const limit = Math.sqrt(num);
+  for (let i = 2; i <= limit; ++i) {
+    if (num % i === 0) {
+      return false;
     }
+  }
+  return true;
+}
 ~~~
 
 ### Work Experience
