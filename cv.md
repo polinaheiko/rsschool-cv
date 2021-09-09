@@ -4,8 +4,10 @@
 ---
 # Polina Heiko  
 ___
-Student of Dalhousie University, BC Computer Science  
-tel.: +1(782)-234-5588 / email: polinaheiko@gmail.com  
+#### Contacts:
+Phone: +1(782)-234-5588   
+Email: polinaheiko@gmail.com   
+GitHub: [polinaheiko](https://github.com/polinaheiko)
 ___
 
 ### Summary:
@@ -16,21 +18,30 @@ ___
 *	Understanding in front-end development, building Websites, and Databases 
 
 ### Technical Skills
-* Programming Languages & GUI: Java 	Core, JavaScript, Python, C#, SQL, HTML/CSS
-* Database & Software: MS SQL Server, MySQL
-* Platforms/Operation Systems: macOS, Windows
-* Other Tools: Photoshop, Gimp, SketchUp, Wix, MS Office tools
+* **Programming Languages & GUI:** Java 	Core, JavaScript, Python, C#, SQL, HTML/CSS
+* **Database & Software:** MS SQL Server, MySQL
+* **Platforms/Operation Systems:** macOS, Windows
+* **Other Tools:** Photoshop, Gimp, SketchUp, Wix, MS Office tools
 
-### Soft Skills
-* Collaborative
-* Detail Oriented & Adaptive
-* Customer Service
-* Food Safety & Hygiene 
-* Fluent in English, Russian and Ukrainian languages 
+### Code Example
+~~~java
+  public Card nextPlay(){
+        Player currentPlayer = getCurrentPlayer();
+        Card playCard = currentPlayer.findMatch(discardCard);
+        if (playCard == null){
+            currentPlayer.addCardToHand(pile);
+        }
+        else {
+            currentPlayer.removeCardFromHand(playCard);
+            discardCard = playCard;
+        }
+        return discardCard;
+    }
+~~~
 
 ### Work Experience
 
-The Nova Picnic Co., Canada                                                       	      	
+#### The Nova Picnic Co., Canada                                                       	      	
 Role: SMM, founder											 JUL 2021
 
 *	Acquiring and integrating a product, including aspects of branding, design, usability and function
@@ -38,7 +49,7 @@ Role: SMM, founder											 JUL 2021
 *	Developing and organizing stunning luxury picnic experience matching customer’s theme in different unique spots of HRM 
 *	Building an ecommerce website on Wix using HTML/CSS (in progress)
 
-The Bicycle Thief, Canada                                                       	      	
+#### The Bicycle Thief, Canada                                                       	      	
 Role: Server & Hostess										JUN 2021
 
 *	Setting tables; placing and replacing silverware and keeping beverage glasses full; 
@@ -47,7 +58,7 @@ Role: Server & Hostess										JUN 2021
 *	Running food and beverages, entertaining guests with small talks
 *	Updating job knowledge by participating in staff and server training opportunities
 
-Moxie's Grill & Bar, Canada                                                       	      	
+#### Moxie's Grill & Bar, Canada                                                       	      	
 Role: Host											JAN 2020 – AUG 2020
 
 *	Greeting guests with a smile and responding quickly and efficiently to their requests, escorting customers to the dining and bar areas
@@ -55,7 +66,7 @@ Role: Host											JAN 2020 – AUG 2020
 *	Providing accurate wait times, safety and sanitation standards during COVID-19
 *	Assisting other stuff members with bussing or serving duties
 
-The Daily Grind Coffee Shop, Canada                                                       	      	
+#### The Daily Grind Coffee Shop, Canada                                                       	      	
 Role: Server 											JUL 2019 – NOV 2019
 
 *	Provide excellent service to customers
@@ -63,7 +74,7 @@ Role: Server 											JUL 2019 – NOV 2019
 *	Understands and adheres to proper food handling, safety and sanitation standards during food preparation, service and clean up 
 *	Effectively handle cash register, including cash, debit and credit card transactions 
 
-Special for You Model Agency, Ukraine                                                       	      	
+#### Special for You Model Agency, Ukraine                                                       	      	
 Role: SMM, Model										MAR 2018 – MAY 2019
 
 *	Communicated with all levels of people in the fashion industry, organizing fashion shows and photoshoots for some Ukrainian brands
@@ -72,7 +83,7 @@ Role: SMM, Model										MAR 2018 – MAY 2019
 *	Displayed clothing and merchandise in commercials, advertisements and fashion shows 
 *	Followed strict routines of diet, sleep and exercise to maintain appearance 
 
-LLC Energoslav, Ukraine                                                                                                              	      
+#### LLC Energoslav, Ukraine                                                                                                              	      
 Role: Student Intern 										JUN 2018 – AUG 2018
 
 *	Solving programming tasks with knowledge of C# programming language 
@@ -81,9 +92,14 @@ Role: Student Intern 										JUN 2018 – AUG 2018
 
 
 ### Education
- Bachelor of Applied Computer Science (in progress), Dalhousie University, Canada
- High School Diploma, Lyceum of Informational Technologies, Ukraine
- Certificate in Art, Art School №1, Ukraine
- Restaurant Server Training, Corona Waiter School, Dnepr, Ukraine
- English Solovov School, Dnepr, Ukraine
- Python for Database course (in progress), DataCamp
+**Bachelor of Applied Computer Science *(in progress)***, Dalhousie University, Canada   
+**High School Diploma, Lyceum of Informational Technologies**, Ukraine   
+**Certificate in Art**, Art School №1, Ukraine   
+**Restaurant Server Training**, Corona Waiter School, Dnepr, Ukraine   
+**English Solovov School**, Dnepr, Ukraine   
+**Python for Database course *(in progress)***, DataCamp   
+
+### Languages
+**Ukrainian (native)   
+Russian   
+English (C1)**
