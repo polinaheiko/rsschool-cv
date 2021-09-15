@@ -216,6 +216,7 @@ body {
 	margin-left: -200px;
 	padding: 40px 60px 10px 60px;
 	background: #efefff;
+	border-bottom: 0px;
 }
 
 .resume .resume-right .data {
