@@ -91,7 +91,7 @@ body {
 
 .resume .resume-item {
 	padding: 25px 0;
-	border-bottom: 2px solid #f7f9f8;
+	border-bottom: 2px solid #d0d3ca;
 }
 
 .resume .resume-left .resume-item:last-child {
@@ -151,6 +151,11 @@ body {
 	color: #d080da;
 }
 
+.resume .resume-right .text {
+	text-indent: 15px;
+	padding-left: 15px;
+}
+
 .resume .resume-right .work ul,
 .resume .resume-right .education ul {
 	padding-left: 40px;
@@ -202,6 +207,9 @@ body {
 	background: #d080da;
 }
 
+.resume .resume-right .courses {
+	border-bottom: 0px;
+}
 
 .resume .resume-right .code {
 	width: 600px;
@@ -216,4 +224,28 @@ body {
 	margin-left: 15px;
 }
 
+footer {
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: -50px auto 50px auto;
+	padding: 20px;
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #666;
+}
 
+.github {
+	display: flex;
+	align-items: center;
+}
+
+.github-icon {
+	margin-right: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
