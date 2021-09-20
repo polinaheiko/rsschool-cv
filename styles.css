@@ -29,22 +29,23 @@ body {
 }
 
 .resume {
-	width: 800px;
+	max-width: 800px;
+	background-color: #fff;;
 	height: auto;
 	display: flex;
-	margin: 50px auto;
+	margin: 50px auto 0px auto;
 	box-shadow: 0px 0px 25px 15px #eee;
 }
 
 .resume .resume-left {
-	width: 280px;
+	max-width: 280px;
 	background: #acc1b5;
-
+	margin-bottom: 800px;
 }
 
 .resume .resume-left .profile {
-	width: 100%;
-	height: 280px;
+	max-width: 100%;
+	max-height: 280px;
 }
 
 .resume .resume-left .profile img {
@@ -58,8 +59,8 @@ body {
 }
 
 .resume .resume-left ul li .icon {
-	width: 40px;
-	height: 40px;
+	max-width: 40px;
+	max-width: 40px;
 	background: #fff;
 	border-radius: 50%;
 	margin-right: 15px;
@@ -68,8 +69,8 @@ body {
 }
 
 .resume .icon img {
-	width: 20px;
-	height: 20px;	
+	max-width: 20px;
+	max-height: 20px;	
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -78,6 +79,10 @@ body {
 
 .resume .title {
 	margin-bottom: 20px;
+}
+
+.resume .title .regular{
+	font-size: 16px;
 }
 
 .resume .resume-left .bold {
@@ -142,7 +147,7 @@ body {
 }
 
 .resume .resume-right {
-	width: 520px;
+	max-width: 520px;
 	background: #fff;
 	padding: 25px;
 }
@@ -212,7 +217,7 @@ body {
 }
 
 .resume .resume-right .code {
-	width: 600px;
+	max-width: 600px;
 	margin-left: -200px;
 	padding: 40px 60px 10px 60px;
 	background: #efefff;
@@ -225,12 +230,42 @@ body {
 	margin-left: 15px;
 }
 
+.resume-project {
+	max-width: 800px;
+	margin-left: -280px;
+	padding: 60px 60px 10px 60px;
+	background: #fff;
+	border-bottom: 0px;
+}
+
+.resume-project span {
+    /*background: rgba(0,0,0,0.7); (полупрозрачность)*/
+    background: #222;
+    color: #fff;
+    border-radius: 2px;
+    padding: 15px 25px;
+	bottom: 70px;
+	left: 5px;
+	position: relative;
+    display: inline-block;
+}
+
+.resume-project img{
+    width: 100%;
+	opacity: 0.7;
+}
+
+.resume-project img:hover{
+    width: 100%;
+	opacity: 1;
+}
+
 footer {
-	width: 800px;
+	max-width: 800px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: -50px auto 50px auto;
+	margin: 0px auto 50px auto;
 	padding: 20px;
 	font-size: 12px;
 	color: #ffffff;
