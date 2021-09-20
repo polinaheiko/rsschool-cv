@@ -81,6 +81,10 @@ body {
 	margin-bottom: 20px;
 }
 
+.resume .title .regular{
+	font-size: 16px;
+}
+
 .resume .resume-left .bold {
 	color: #fff;
 }
