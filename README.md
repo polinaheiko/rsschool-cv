@@ -1,3 +1,3 @@
 # rsschool-cv
 RS-school CV task
-https://github.com/polinaheiko/rsschool-cv/index
+https://polinaheiko.github.io/rsschool-cv/index
