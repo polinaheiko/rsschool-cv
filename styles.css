@@ -29,7 +29,7 @@ body {
 }
 
 .resume {
-	max-width: 800px;
+	max-width: 900px;
 	background-color: #fff;;
 	height: auto;
 	display: flex;
@@ -38,23 +38,12 @@ body {
 }
 
 .resume .resume-left {
-	max-width: 280px;
+	max-width: 300px;
 	background: #acc1b5;
-	margin-bottom: 800px;
-}
-
-.resume .resume-left .profile {
-	max-width: 100%;
-	max-height: 280px;
-}
-
-.resume .resume-left .profile img {
-	width: 100%;
-	height: 100%;
 }
 
 .resume .resume-left .content {
-	padding: 0 25px;
+	padding: 25px;
 
 }
 
@@ -63,7 +52,8 @@ body {
 	max-width: 40px;
 	background: #fff;
 	border-radius: 50%;
-	margin-right: 15px;
+	margin-right: 5px;
+	padding-left: 17px;
 	font-size: 16px;
 	position: relative;
 }
@@ -115,6 +105,7 @@ body {
 
 .resume .resume-left ul li .data {
 	color: #f7f9f8;
+	margin-left: 10px;
 }
 
 .resume .resume-left .skills ul li {
@@ -147,7 +138,7 @@ body {
 }
 
 .resume .resume-right {
-	max-width: 520px;
+	max-width: 600px;
 	background: #fff;
 	padding: 25px;
 }
@@ -182,6 +173,7 @@ body {
 
 .resume .resume-right ul li .info {
 	margin-bottom: 20px;
+	margin-left: 15px;
 }
 
 .resume .resume-right ul li:last-child .info {
@@ -201,6 +193,19 @@ body {
 	background: #fff;
 }
 
+.resume .resume-right .work ul li:nth-child(-n+2):before ,
+.resume .resume-right .education ul li:nth-child(-n+1):before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: -25px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 2px solid #d080da;
+	background: #d080da;
+}
+
 .resume .resume-right .work ul li:after,
 .resume .resume-right .education ul li:after {
 	content: "";
@@ -217,42 +222,68 @@ body {
 }
 
 .resume .resume-right .code {
-	max-width: 600px;
-	margin-left: -200px;
-	padding: 40px 60px 10px 60px;
-	background: #efefff;
+    width: 130%;
+    margin-left: -122px;
+	padding: 50px 0px 10px 60px;
+	background: #f3e7ff;
 	border-bottom: 0px;
+    box-shadow: -4px -2px 15px -15px #000;
 }
 
 .resume .resume-right .data {
-	font-size: 16px;
-	margin-top: -15px;
-	margin-left: 15px;
+    font-size: 16px;
+    margin-top: -25px;
+    margin-left: 14px;
+    margin-bottom: -10px;
+}
+
+.resume .resume-right .data .gd-png {
+    max-width: 670px;
+    max-height: 400px;
+	vertical-align: bottom;
+
 }
 
 .resume-project {
-	max-width: 800px;
-	margin-left: -280px;
-	padding: 60px 60px 10px 60px;
+	width: 150%;
+	margin-left: -232px;
+	padding:50px 60px 10px 60px;
 	background: #fff;
 	border-bottom: 0px;
+	box-shadow: -4px -2px 15px -15px #000;
+
 }
 
 .resume-project span {
     /*background: rgba(0,0,0,0.7); (полупрозрачность)*/
     background: #222;
     color: #fff;
-    border-radius: 2px;
+    border-radius: 0px 10px 0px 0px;
     padding: 15px 25px;
-	bottom: 70px;
-	left: 5px;
+	bottom: 58px;
 	position: relative;
     display: inline-block;
+}
+
+.bold span {
+    background: #d080da;
+    color: #fff;
+    border-radius: 0px 30px 30px 0px;
+    padding: 15px 25px 15px 70px;
+    bottom: 0px;
+    left: -60px;
+    position: relative;
+    display: inline-block;
+}
+
+.bold .span-side{
+	left: -25px;
 }
 
 .resume-project img{
     width: 100%;
 	opacity: 0.7;
+	transition: all 0.5s ease;
 }
 
 .resume-project img:hover{
@@ -261,7 +292,7 @@ body {
 }
 
 footer {
-	max-width: 800px;
+	max-width: 900px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
