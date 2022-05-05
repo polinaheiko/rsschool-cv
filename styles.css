@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-image: url("top-view.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 14px;
+	line-height: 22px;
+	color: #555555;
+}
+
+.bold {
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.semi-bold {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.resume {
+	max-width: 900px;
+	background-color: #fff;;
+	height: auto;
+	display: flex;
+	margin: 50px auto 0px auto;
+	box-shadow: 0px 0px 25px 15px #eee;
+}
+
+.resume .resume-left {
+	max-width: 300px;
+	background: #acc1b5;
+}
+
+.resume .resume-left .content {
+	padding: 25px;
+
+}
+
+.resume .resume-left ul li .icon {
+	max-width: 40px;
+	max-width: 40px;
+	background: #fff;
+	border-radius: 50%;
+	margin-right: 5px;
+	padding-left: 17px;
+	font-size: 16px;
+	position: relative;
+}
+
+.resume .icon img {
+	max-width: 20px;
+	max-height: 20px;	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.resume .title {
+	margin-bottom: 20px;
+}
+
+.resume .title .regular{
+	font-size: 16px;
+}
+
+.resume .resume-left .bold {
+	color: #fff;
+}
+
+.resume .resume-left .regular {
+	color: #f7f9f8;
+	font-size: 16px;
+}
+
+.resume .resume-item {
+	padding: 25px 0;
+	border-bottom: 2px solid #d0d3ca;
+}
+
+.resume .resume-left .resume-item:last-child {
+	border-bottom: 0px;
+}
+
+.resume .resume-left ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.resume .resume-left ul li:last-child {
+	margin-bottom: 0px;
+}
+
+.resume .resume-left ul li .data {
+	color: #f7f9f8;
+	margin-left: 10px;
+}
+
+.resume .resume-left .skills ul li {
+	color: #f7f9f8;
+	justify-content: space-between;
+}
+
+.resume .resume-left .skills ul li .skill-name {
+	width: 25%;
+}
+
+.resume .resume-left .skills ul li .skill-progress {
+	width: 60%;
+	margin: 0 5px;
+	height: 5px;
+	background: #fff;
+	position: relative;
+}
+
+.resume .resume-left .skills ul li .skill-per {
+	width: 15%;
+}
+
+.resume .resume-left .skills ul li .skill-progress span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #d080da;
+}
+
+.resume .resume-right {
+	max-width: 600px;
+	background: #fff;
+	padding: 25px;
+}
+
+.resume .resume-right .bold {
+	color: #d080da;
+}
+
+.resume .resume-right .text {
+	text-indent: 15px;
+	padding-left: 15px;
+}
+
+.resume .resume-right .work ul,
+.resume .resume-right .education ul {
+	padding-left: 40px;
+	overflow: hidden;
+}
+
+
+.resume .resume-right ul li {
+	position: relative;
+}
+
+
+.resume .resume-right ul li .date {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+
+}
+
+.resume .resume-right ul li .info {
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+.resume .resume-right ul li:last-child .info {
+	margin-bottom: 0px;
+}
+
+.resume .resume-right .work ul li:before ,
+.resume .resume-right .education ul li:before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: -25px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 2px solid #d080da;
+	background: #fff;
+}
+
+.resume .resume-right .work ul li:nth-child(-n+2):before ,
+.resume .resume-right .education ul li:nth-child(-n+1):before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: -25px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 2px solid #d080da;
+	background: #d080da;
+}
+
+.resume .resume-right .work ul li:after,
+.resume .resume-right .education ul li:after {
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: -21px;
+	width: 3px;
+	height: 115px;
+	background: #d080da;
+}
+
+.resume .resume-right .courses {
+	border-bottom: 0px;
+}
+
+.resume .resume-right .code {
+    width: 130%;
+    margin-left: -122px;
+	padding: 50px 0px 10px 60px;
+	background: #f3e7ff;
+	border-bottom: 0px;
+    box-shadow: -4px -2px 15px -15px #000;
+}
+
+.resume .resume-right .data {
+    font-size: 16px;
+    margin-top: -25px;
+    margin-left: 14px;
+    margin-bottom: -10px;
+}
+
+.resume .resume-right .data .gd-png {
+    max-width: 670px;
+    max-height: 400px;
+	vertical-align: bottom;
+
+}
+
+.resume-project {
+	width: 150%;
+	margin-left: -232px;
+	padding:50px 60px 10px 60px;
+	background: #fff;
+	border-bottom: 0px;
+	box-shadow: -4px -2px 15px -15px #000;
+
+}
+
+.resume-project span {
+    /*background: rgba(0,0,0,0.7); (полупрозрачность)*/
+    background: #222;
+    color: #fff;
+    border-radius: 0px 10px 0px 0px;
+    padding: 15px 25px;
+	bottom: 58px;
+	position: relative;
+    display: inline-block;
+}
+
+.bold span {
+    background: #d080da;
+    color: #fff;
+    border-radius: 0px 30px 30px 0px;
+    padding: 15px 25px 15px 70px;
+    bottom: 0px;
+    left: -60px;
+    position: relative;
+    display: inline-block;
+}
+
+.bold .span-side{
+	left: -25px;
+}
+
+.resume-project img{
+    width: 100%;
+	opacity: 0.7;
+	transition: all 0.5s ease;
+}
+
+.resume-project img:hover{
+    width: 100%;
+	opacity: 1;
+}
+
+footer {
+	max-width: 900px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px auto 50px auto;
+	padding: 20px;
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #666;
+}
+
+.github {
+	display: flex;
+	align-items: center;
+}
+
+.github-icon {
+	margin-right: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}

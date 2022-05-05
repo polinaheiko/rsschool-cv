@@ -1,0 +1,201 @@
+html {
+  text-align: center;
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background-image: url(../img/dalfcs.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+#secondaryNav ul {
+  list-style-type: none;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #707372;
+}
+
+#secondaryNav li{
+  float: right;
+}
+
+#secondaryNav li a {
+  font-weight: bold;
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#secondaryNav li a:hover{
+  color: #F2AC00;
+}
+
+header {
+  overflow: hidden;
+  padding: 10px 10px;
+}
+
+#mainHeading a{
+  font-weight: bold;
+  float: left;
+  display: block;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+#keywordBox {
+  float: right;
+  margin-right: 5px;
+  padding: 9px;
+  color:#ccc;
+  border-radius: 10px;
+  width: 16%;
+}
+
+#searchForm label{
+  float: right;
+  margin-top: 8px;
+  margin-right: 15px;
+}
+
+#primaryNav ul {
+  list-style-type: none;
+  margin-top: 35px;
+  margin-bottom: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #EFEFEF;
+}
+
+#primaryNav li {
+  float: left;
+}
+
+#primaryNav li a {
+  display: block;
+  font-weight: bold;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#primaryNav li a:hover{
+  color: #F2AC00;
+  background-color: black;
+}
+
+#content {
+  text-align: left;
+  width: 83%;
+  margin-left: 80px;
+  padding: 20px 20px 0px;
+}
+
+#content h3{
+  text-align: left;
+  font-weight: bold;
+  color: #F2AC00;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#aboutCourse {
+  float: left;
+  width: 67%;
+  margin-top: 70px;
+  padding-top: 40px;
+  padding-right: 60px;
+}
+
+section {
+  padding: 20px;
+  background-color: white;
+}
+
+article {
+  padding: 0px 20px 0px;
+}
+
+#details {
+  padding: 20px 20px 0px;
+}
+
+#grading {
+  background-color: white;
+  margin-top: 70px;
+  padding-top: 40px;
+}
+
+#grading section:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#grading table{
+  border-collapse: collapse;
+}
+
+#grading th, td {
+  padding: 10px;
+  border-bottom: 2px solid darkgray;
+}
+
+#grading tr:nth-child(odd){
+  background-color: #f2f2f2;
+}
+
+#grading td:nth-child(2){
+  text-align: center;
+}
+
+#grading th {
+  background-color: #0A5AA0;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  font-size: 14px;
+  margin-top: 100px;
+  height: 115px; 
+}
+
+#copyright {
+  color: white;
+  float: left; 
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+#footerNav nav {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+#footerNav a {
+  margin-top: 50px;
+  margin-right: 30px;
+  float: right;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+#footerNav a:hover{
+  color: #F2AC00;
+}
